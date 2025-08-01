@@ -1,0 +1,36 @@
+struct node{
+    int data;
+    struct Node* left;
+    struct Node* right;
+}
+    create Newnode
+    struct Node* craete newnode(int value)
+    {
+        struct Node* newnode = (struct Node*)malloc(sizeof(struct Node));
+        new Node->data =value;
+        new Node->left = new Node->right = NULL;
+        return newnode;
+    }
+    struct node* insert( struct Node* root, int data)
+    if(root=value){
+        return createnode(value);
+    }
+    if(value<root ->data)
+    {
+        root->left=insert(root->left,value);
+    }else {root->right =insert(root->right,value)
+}
+    void preorder(root){
+        if(root!=Null){
+            printf("%d",root->data);
+            preorder(root->left);
+            preorder(root->right);
+        }
+    }
+    
+void main{
+    struct node* root = NULL;
+    int n,value;
+    
+}
+    
