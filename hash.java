@@ -9,7 +9,8 @@ public class hash{
         }
         return hash%hashtable;  //reminder after dividing by hastable value 
     }
-    public static void main(String[] args) {
+        // main code
+    public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in);
             System.out.print("Enter characters:");
         String inp = sc.nextLine();
@@ -18,4 +19,5 @@ public class hash{
         sc.close();
     }
 }
+
 
